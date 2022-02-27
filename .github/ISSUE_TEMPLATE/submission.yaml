@@ -1,0 +1,38 @@
+name: Project Submission
+description: Submit your project
+title: "[Project] <title>"
+labels: [Project, Needs Triage]
+body:
+- type: input
+  attributes:
+    label: Team Name
+    description: Please add a team name.
+  validations:
+    required: true
+- type: input
+  attributes:
+    label: Project Name
+    description: Please add a name to your hackathon project.
+  validations:
+    required: true
+- type: input
+  attributes:
+    label: Project Repository
+    description: Please share GitHub repository link of your project.
+  validations:
+    required: true
+- type: input
+  attributes:
+    label: Project URL
+    description: Please share demo link of your project or demo video.
+  validations:
+    required: true
+- type: textarea
+  attributes:
+    label: Project Description
+    description: |
+      Links? References? Anything that will give us more context about your project!
+
+      Tip: You can attach project details - pdf files, project presentation, images by clicking this area to highlight it and then dragging files in.
+  validations:
+    required: false
